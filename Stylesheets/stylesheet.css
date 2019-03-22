@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000131;
+  background-size:contain;
+}
+
+.background {
+  background-image: url("../imagenes/layout-cumple_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7994B3;
+  margin-right: 20px;
+  margin: 0px;
+}
+
+
+@keyframes slidein {
+  60% {
+    width: 600px;
+  }
+  100% {
+    width: 500px;
+  }
+}
+
+.numberball {
+  width: 300px;
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+}
+/* .numberball:hover {
+  width: 500px;
+  animation-duration: 2s;
+} */
+
+ .bolanumero  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 250px;
+ }
+
+ .button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .bottomdown {
+  width: 80px;
+ }
+
+.video-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+}
+
+.video {
+  width: 700px;
+  height: 500px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+ .footer {
+    background-color: #2365B3;
+    box-sizing: border-box;
+    border: 60px solid #B7C0C8;
+    display: flex;
+    justify-content: flex-end;
+ }
